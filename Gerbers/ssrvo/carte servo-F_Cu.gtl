@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
-%TF.CreationDate,2025-12-28T21:40:08+01:00*%
+%TF.CreationDate,2026-02-05T15:01:38+01:00*%
 %TF.ProjectId,carte servo,63617274-6520-4736-9572-766f2e6b6963,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.4) date 2025-12-28 21:40:08*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2026-02-05 15:01:38*
 %MOMM*%
 %LPD*%
 G01*
@@ -58,10 +58,10 @@ G04 Aperture macros list end*
 %TD*%
 G04 APERTURE END LIST*
 D10*
-%TO.P,pull_down1,1*%
+%TO.P,pull_down_10k1,1*%
 %TO.N,out1*%
 X220000000Y-71505000D03*
-%TO.P,pull_down1,2*%
+%TO.P,pull_down_10k1,2*%
 %TO.N,GND*%
 X220000000Y-63885000D03*
 %TD*%
@@ -73,14 +73,14 @@ X204250000Y-62000000D03*
 X201750000Y-62000000D03*
 %TD*%
 D11*
-%TO.P,servo1_out1,1,Pin_1*%
+%TO.P,out1,1,Pin_1*%
 %TO.N,out1*%
 X225460000Y-82000000D03*
 D12*
-%TO.P,servo1_out1,2,Pin_2*%
+%TO.P,out1,2,Pin_2*%
 %TO.N,VCC*%
 X228000000Y-82000000D03*
-%TO.P,servo1_out1,3,Pin_3*%
+%TO.P,out1,3,Pin_3*%
 %TO.N,GND*%
 X230540000Y-82000000D03*
 %TD*%
@@ -132,14 +132,14 @@ X212735000Y-83815000D03*
 X215275000Y-83815000D03*
 %TD*%
 D11*
-%TO.P,servo2_out1,1,Pin_1*%
+%TO.P,out2,1,Pin_1*%
 %TO.N,out2*%
 X225460000Y-86500000D03*
 D12*
-%TO.P,servo2_out1,2,Pin_2*%
+%TO.P,out2,2,Pin_2*%
 %TO.N,VCC*%
 X228000000Y-86500000D03*
-%TO.P,servo2_out1,3,Pin_3*%
+%TO.P,out2,3,Pin_3*%
 %TO.N,GND*%
 X230540000Y-86500000D03*
 %TD*%
@@ -159,25 +159,25 @@ X212735000Y-71315000D03*
 X215275000Y-71315000D03*
 %TD*%
 D11*
-%TO.P,J1,1,Pin_1*%
+%TO.P,servo_in1,1,Pin_1*%
 %TO.N,GND*%
 X201000000Y-94310000D03*
 D12*
-%TO.P,J1,2,Pin_2*%
+%TO.P,servo_in1,2,Pin_2*%
 %TO.N,sig3*%
 X201000000Y-91770000D03*
-%TO.P,J1,3,Pin_3*%
+%TO.P,servo_in1,3,Pin_3*%
 %TO.N,sig2*%
 X201000000Y-89230000D03*
-%TO.P,J1,4,Pin_4*%
+%TO.P,servo_in1,4,Pin_4*%
 %TO.N,sig1*%
 X201000000Y-86690000D03*
 %TD*%
 D10*
-%TO.P,in1,1*%
+%TO.P,in_470,1*%
 %TO.N,sig1*%
 X208500000Y-71315000D03*
-%TO.P,in1,2*%
+%TO.P,in_470,2*%
 %TO.N,Net-(U2-Pad1)*%
 X208500000Y-63695000D03*
 %TD*%
@@ -222,14 +222,14 @@ X220000000Y-96310000D03*
 X220000000Y-88690000D03*
 %TD*%
 D11*
-%TO.P,servo2_out2,1,Pin_1*%
+%TO.P,out3,1,Pin_1*%
 %TO.N,out3*%
 X225460000Y-91000000D03*
 D12*
-%TO.P,servo2_out2,2,Pin_2*%
+%TO.P,out3,2,Pin_2*%
 %TO.N,VCC*%
 X228000000Y-91000000D03*
-%TO.P,servo2_out2,3,Pin_3*%
+%TO.P,out3,3,Pin_3*%
 %TO.N,GND*%
 X230540000Y-91000000D03*
 %TD*%

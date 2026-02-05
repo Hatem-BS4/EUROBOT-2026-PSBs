@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
-%TF.CreationDate,2025-12-28T21:39:44+01:00*%
+%TF.CreationDate,2026-02-05T14:55:25+01:00*%
 %TF.ProjectId,Carte Mosfet,43617274-6520-44d6-9f73-6665742e6b69,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.4) date 2025-12-28 21:39:44*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2026-02-05 14:55:25*
 %MOMM*%
 %LPD*%
 G01*
@@ -91,7 +91,7 @@ D16*
 X119580000Y-80500000D03*
 %TD*%
 D14*
-%TO.C,R7*%
+%TO.C,R220*%
 X131620000Y-54500000D03*
 X124000000Y-54500000D03*
 %TD*%
@@ -233,7 +233,7 @@ D16*
 X185340000Y-54500000D03*
 %TD*%
 D14*
-%TO.C,R8*%
+%TO.C,R100k1*%
 X124000000Y-60000000D03*
 X131620000Y-60000000D03*
 %TD*%
@@ -347,7 +347,7 @@ X190460000Y-61500000D03*
 X193000000Y-61500000D03*
 %TD*%
 D25*
-%TO.C,J7*%
+%TO.C,EN1*%
 X115000000Y-124000000D03*
 D26*
 X112500000Y-124000000D03*
